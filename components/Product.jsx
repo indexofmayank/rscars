@@ -16,7 +16,7 @@ const Product = ({ product: { image, name, slug, price, details } }) => {
           />
           <p className="product-name">{name}</p>
           <p className="product-price">₹{price}</p>
-          <p>{details}</p>
+          {/* <p>{details}</p> */}
         </div>
       </Link>
     </div>
